@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.2"
+  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/TeemIp/teemip-core-ip-mgmt/refs/heads/master/teemip-framework/doc/design.xsd">
+  <branding>
+    <main_logo _delta="define">teemip-branding/asset/img/teemip-logo.png</main_logo>
+    <main_logo_compact _delta="define">teemip-branding/asset/img/teemip-logo-compact.png</main_logo_compact>
+    <login_logo _delta="define">teemip-branding/asset/img/teemip-login-logo.png</login_logo>
+    <portal_logo _delta="define">teemip-branding/asset/img/teemip-portal-logo.png</portal_logo>
+    <login_favicon _delta="define">teemip-branding/asset/img/favicon.ico</login_favicon>
+    <main_favicon _delta="define">teemip-branding/asset/img/favicon.ico</main_favicon>
+    <portal_favicon _delta="define">teemip-branding/asset/img/favicon.ico</portal_favicon>
+    <themes>
+      <theme id="test-red" _delta="must_exist">
+        <imports>
+          <import id="scss-variables" xsi:type="variables" _delta="define">steffunky-backoffice-bluemoon-theme/scss/scss-variables.scss</import>
+        </imports>
+        <stylesheets>
+          <stylesheet id="bluemoon_style" _delta="define">steffunky-backoffice-bluemoon-theme/scss/style.scss</stylesheet>
+          <stylesheet id="bluemoon_ace_editor" _delta="define">steffunky-backoffice-bluemoon-theme/scss/ace_editor.scss</stylesheet>
+        </stylesheets>
+      </theme>
+    </themes>
+  </branding>
+</itop_design>
