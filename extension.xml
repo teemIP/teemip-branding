@@ -6,7 +6,7 @@
 	<label><![CDATA[teemIP Branding]]></label>
 	<description><![CDATA[teemIP extension that defines teemIP specific look & feel]]></description>
 	<version>1.0.0</version>
-	<release_date>2026-08-06</release_date>
+	<release_date>2026-08-25</release_date>
 	<version_description><![CDATA[First release]]></version_description>
 	<itop_version_min>3.2.3</itop_version_min>
 	<status>stable</status>
