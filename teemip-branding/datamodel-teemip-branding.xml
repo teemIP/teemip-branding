@@ -6,9 +6,9 @@
     <main_logo_compact _delta="define">teemip-branding/asset/img/teemip-logo-compact.png</main_logo_compact>
     <login_logo _delta="define">teemip-branding/asset/img/teemip-login-logo.png</login_logo>
     <portal_logo _delta="define">teemip-branding/asset/img/teemip-portal-logo.png</portal_logo>
-    <login_favicon _delta="define">teemip-branding/asset/img/favicon.ico</login_favicon>
-    <main_favicon _delta="define">teemip-branding/asset/img/favicon.ico</main_favicon>
-    <portal_favicon _delta="define">teemip-branding/asset/img/favicon.ico</portal_favicon>
+    <login_favicon _delta="define">teemip-branding/asset/img/favicon.png</login_favicon>
+    <main_favicon _delta="define">teemip-branding/asset/img/favicon.png</main_favicon>
+    <portal_favicon _delta="define">teemip-branding/asset/img/favicon.png</portal_favicon>
     <themes>
       <theme id="test-red" _delta="must_exist">
         <imports>
