@@ -6,7 +6,7 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'teemip-branding/1.0.0',
+	'teemip-branding-base/1.0.2',
 	array(
 		// Identification
 		//
