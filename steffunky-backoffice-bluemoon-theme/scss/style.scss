@@ -1,0 +1,112 @@
+%ibo-elevation-overlay {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px !important;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+%ibo-elevation-raised {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px 0px, rgba(0, 0, 0, 0.2) 0px 1px 2px -1px !important;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#ibo-top-bar {
+  @extend %ibo-elevation-raised;
+}
+
+#ibo-navigation-menu {
+  background-color: $ibo-color-white-100;
+}
+.ibo-navigation-menu--menu-group.ibo-is-active {
+  margin-right: -8px !important;
+}
+
+.ibo-navigation-menu--body, .ibo-navigation-menu--drawer {
+  border-radius: 0 16px 16px 0;
+}
+
+.ibo-navigation-menu--bottom-part {
+    border-radius: 16px 0;
+}
+
+.ibo-navigation-menu--drawer {
+  @extend %ibo-elevation-raised;
+}
+
+.ibo-navigation-menu.ibo-is-active .ibo-navigation-menu--drawer {
+  right: calc(calc(-1 * #{$ibo-navigation-menu--drawer--width}) + 16px);
+  padding-left: calc(16px + 16px);
+}
+
+.ibo-navigation-menu--menu-groups {
+  width: unset;
+}
+
+#ibo-top-container {
+  margin-left: -16px;
+}
+
+#ibo-side-content {
+  border-left: none;
+  @extend %ibo-elevation-raised;
+}
+
+.ibo-dashlet-badge {
+  @extend %ibo-elevation-raised;
+  &:hover {
+    @extend %ibo-elevation-overlay;
+  }
+}
+
+.ibo-panel--body, .ibo-collapsible-section--body {
+  @extend %ibo-elevation-raised;
+  .ibo-panel--body {
+    // too much, make an in between value
+    //@extend %ibo-elevation-overlay;
+  }
+}
+
+.tippy-content .ibo-object-summary .ibo-panel--body{
+  @extend %ibo-elevation-overlay;
+}
+
+.ibo-activity-entry--main-information {
+  @extend %ibo-elevation-raised;
+}
+
+.ibo-activity-panel--tab-toggler .ibo-activity-panel--tab-title {
+  border-radius: 5px;
+  margin: 8px 4px 4px 4px;
+  color: $ibo-color-grey-800;
+}
+.ibo-activity-panel--tab-toggler.ibo-is-active .ibo-activity-panel--tab-title {
+  font-weight: 700;
+  color: $ibo-color-grey-900;
+}
+
+.ibo-activity-panel--actions > * {
+  padding: 8px 4px 4px 4px;
+}
+
+.ibo-activity-entry--medallion {
+  box-shadow: $ibo-activity-entry--medallion--has-image--box-shadow;
+}
+
+.ibo-tab-container--tab-toggler, .ibo-tab-container--extra-tabs-list-toggler {
+  margin: 6px 4px;
+  border-radius: 5px;
+}
+
+.ibo-tab-container--tab-header.ui-state-active .ibo-tab-container--tab-toggler {
+  background-color: $ibo-color-blue-100;
+}
+
+.ibo-tab-container--tab-header:hover .ibo-tab-container--tab-toggler {
+  background-color: $ibo-color-blue-50;
+}
+
+.ibo-content-block:has(> .ibo-panel) {
+  padding: 3px;
+}
+
+.ibo-pill {
+  @extend %ibo-elevation-raised;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.1">
+  <branding>
+    <themes>
+      <theme id="bluemoon" _delta="define">
+        <variables>
+        </variables>
+        <imports>
+          <import id="scss-variables" xsi:type="variables">steffunky-backoffice-bluemoon-theme/scss/scss-variables.scss</import>
+        </imports>
+        <stylesheets>
+          <stylesheet id="fullmoon">../css/backoffice/main.scss</stylesheet>
+          <stylesheet id="bluemoon_style">steffunky-backoffice-bluemoon-theme/scss/style.scss</stylesheet>
+          <stylesheet id="bluemoon_ace_editor">steffunky-backoffice-bluemoon-theme/scss/ace_editor.scss</stylesheet>
+        </stylesheets>
+      </theme>
+    </themes>
+  </branding>
+</itop_design>
