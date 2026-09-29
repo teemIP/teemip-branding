@@ -5,11 +5,11 @@
 	<author><![CDATA[Christophe Naud]]></author>
 	<label><![CDATA[teemIP Branding]]></label>
 	<description><![CDATA[teemIP extension that defines teemIP specific look & feel]]></description>
-	<version>1.0.0</version>
-	<release_date>2026-08-25</release_date>
+	<version>1.1.0</version>
+	<release_date>2026-09-29</release_date>
 	<version_description><![CDATA[First release]]></version_description>
-	<itop_version_min>3.2.3</itop_version_min>
+	<itop_version_min>3.3.0</itop_version_min>
 	<status>stable</status>
 	<mandatory>false</mandatory>
-	<more_info_url>https://wiki.teemip.net</more_info_url>
+	<more_info_url>https://wiki.teemip.net/doku.php?id=extensions:teemip-branding</more_info_url>
 </extension>
