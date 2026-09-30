@@ -25,7 +25,6 @@ SetupWebPage::AddModule(
 		// Components
 		//
 		'datamodel' => array(
-			'model.teemip-branding.php',
 		),
 		'webservice' => array(
 		),
